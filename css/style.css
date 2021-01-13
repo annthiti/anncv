@@ -1,0 +1,172 @@
+* {
+    font-family: 'Libre Franklin', Arial, sans-serif;
+    text-decoration: none;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+.split {
+    height: 100%;
+    width: 35%;
+    position: fixed;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 30px;
+  }
+
+  .left {
+    left: 0;
+  }
+
+  .split-right {
+    height: 100%;
+    width: 65%;
+    position: fixed;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 30px;
+    padding-left: 20px;
+    right: 0;
+  }
+}
+.card-nav{
+    padding: 5%;
+    padding-bottom: 0;
+    margin: 20px;
+    color: white;
+    background: #59BDDE;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px lightgrey;
+}
+
+.card-content{
+    padding: 5% 2%;
+    margin: 20px auto 50px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px lightgrey;
+    width: 20rem;
+    color: black
+}
+
+.nav-link{
+    color: white
+}
+
+.light {
+    font-weight: 100;
+  }
+
+.regular {
+    font-weight: 400;
+  }
+
+.semi-bold {
+    font-weight: 600;
+  }
+
+.extra-bold {
+    font-weight: 800;
+  }
+
+.btn-nav {
+    background: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.btn-nav:hover {
+    color: #0c5aca;
+    /* box-shadow: 5px 5px 10px #0c5aca; */
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-column-gap: 10px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 2%;
+  text-align: center;
+  width: 120px;
+}
+
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+  
+.jc-center {
+    justify-content: center;
+  }
+
+h3 {
+    color: #0c5aca   
+}
+
+h4 {
+    color: black;
+}
+
+.img-logo{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: inline;
+  position: relative;
+}
+
+.work-content{
+  margin: 5px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li{
+  font-size: 15px;
+}
+
+.progress{
+margin-top: 5px;
+}
+
+.label{
+  background: #59BDDE;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.label-2{
+  background: salmon;
+  padding: 1px;
+}
+
+a:hover{
+    color: #0c5aca;   
+}
+
+.btn-submit{
+  background: #ff4d4d; 
+  color:white;
+  border:none;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn-submit:hover{
+  background: #0c5aca; 
+  color: white;  
+}
