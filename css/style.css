@@ -5,7 +5,7 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-.split {
+  .split {
     height: 100%;
     width: 35%;
     position: fixed;
@@ -14,6 +14,9 @@
     padding-top: 30px;
   }
 
+  #sm{
+    display:none;
+  }
   .left {
     left: 0;
   }
@@ -29,9 +32,61 @@
     right: 0;
   }
 }
+
+@media screen and (max-width: 992px) {
+  #md {
+    display: none;  }
+}
+
+@media screen and (min-width: 992px) {
+  #navbar {
+    display: none; 
+  }
+}
+
+#navbar, #icon1, #icon2, #close{
+  position: fixed;
+  height: 50px;
+  top: 0;
+}
+
+#navbar{
+  width: 100%;
+  background: #59BDDE;
+  z-index: 1;
+}
+
+#icon1{
+  z-index: 1;
+  cursor: pointer;
+}
+
+#icon2{
+  cursor: pointer;
+  z-index: 0;
+}
+
+#close{
+  cursor: pointer;
+  display:none;
+  z-index: 1;
+}
+
+#navmenu{
+  display: none;   
+  position: fixed;
+  background: #59BDDE;
+  top: 50px;
+  z-index: 1;
+  padding: 5%;
+  margin: 20px;
+  color: white;
+  border-radius: 30px;
+  box-shadow: 5px 5px 30px lightgrey;
+}
+
 .card-nav{
     padding: 5%;
-    padding-bottom: 0;
     margin: 20px;
     color: white;
     background: #59BDDE;
@@ -39,13 +94,26 @@
     box-shadow: 5px 5px 30px lightgrey;
 }
 
+
 .card-content{
-    padding: 5% 2%;
-    margin: 20px auto 50px;
-    border-radius: 30px;
-    box-shadow: 5px 5px 30px lightgrey;
-    width: 20rem;
-    color: black
+  padding: 5% 2%;
+  margin: 20px auto 50px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 30px lightgrey;
+  width: 20rem;
+  color: black;
+}
+
+@media screen and (max-width:576px) {
+  #work{
+    display: none;
+  }
+}
+
+@media screen and (min-width:576px) {
+  #work-mobile{
+    display: none;
+  }
 }
 
 .nav-link{
@@ -82,7 +150,6 @@
 
 .btn-nav:hover {
     color: #0c5aca;
-    /* box-shadow: 5px 5px 10px #0c5aca; */
 }
 
 .grid-container {
@@ -143,7 +210,7 @@ margin-top: 5px;
   background: #59BDDE;
   border-radius: 10px;
   padding: 5px;
-  margin-top: 10px;
+  margin: 10px auto 20px;
 }
 
 .label-2{
@@ -169,4 +236,8 @@ a:hover{
 .btn-submit:hover{
   background: #0c5aca; 
   color: white;  
+}
+
+.form-control {
+  margin: 10px;
 }

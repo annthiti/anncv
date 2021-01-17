@@ -19,7 +19,28 @@
 
   <body>
   <div class="split left">
-    <div class="card-nav", style="width: 80%;">
+    <div id="navbar">
+      <img src=img/icon2.jpg id="icon2">
+      <img src=img/icon.jpg id="icon1">
+      <img src=img/close.jpg id="close">
+    </div>
+  
+    <div id="navmenu">
+      <h1 class="card-title extra-bold">Thitiporn Rojsurakitti</h1>
+      <h6 class="card-subtitle light">Software Engineer</h6>
+      <nav class="nav flex-column">
+        <a class="nav-link semi-bold" href="#about"><i class="fa fa-user"></i>&#160;&#160;&#160; About</a>
+        <a class="nav-link semi-bold" href="#work"><i class="fa fa-briefcase"></i>&#160;&#160; Work experience</a>
+        <a class="nav-link semi-bold" href="#education"><i class="fa fa-graduation-cap"></i>&#160; Education</a>
+        <a class="nav-link semi-bold" href="#skills"><i class="fa fa-wrench"></i>&#160;&#160; Skills</a>
+        <a class="nav-link semi-bold" href="#contact"><i class="fa fa-address-book"></i>&#160;&#160; Contact</a>
+        <div class="flex-container jc-center">
+          <button class="btn-nav"><a class="nav-link semi-bold">Download CV</button>
+        </div>     
+      </nav>
+    </div>
+  
+    <div class="card-nav" id="md"style="width: 80%;">
       <h1 class="card-title extra-bold">Thitiporn Rojsurakitti</h1>
       <h6 class="card-subtitle light">Software Engineer</h6>
       <nav class="nav flex-column">
@@ -118,6 +139,56 @@
       </div>
     </div>
 
+    <div class="card-content" id="work-mobile", style="width:90%;">
+      <div class="card-body">
+        <h3 class="card-title semi-bold">Work Experience</h3>
+            <a href=https://www.kyklo.co><img src="img/kyklo.png" class="img-logo"></a>
+            <p class="light">KYKLO</p>
+            <h5 class="work-content semi-bold">Application technology engineer</h5>
+            <p class="work-content light">Oct 2020 - Present</p>
+            <ul>
+              <li><span class="regular">Develop B2B e-commerce site by Ruby on Rails framework</span></li>
+              <li><span class="regular">Develop UI feature using HTML, CSS, JavaScript, Jquery</span></li>
+              <li><span class="regular">Use Test Driven Development (TDD) and Agile methodology (Pivotal Tracker) in software development</span></li>
+            </ul>
+            <a href=https://www.sixatomic.com><img src="img/sixatomic.png" class="img-logo"></a>
+              <p class="light">Six Atomic</p></li>
+            </ul>
+            <h5 class="work-content semi-bold">Senior software engineer</h5>
+            <p class="work-content light">May 2020 - Sep 2020</p>
+            <ul>
+              <li><span class="regular">Lead Inference-Body Measurement Prediction project to create algorithm for size recommendation or custom-fitted clothing from anthropometric database</span></li>
+              <li><span class="regular">Use Python, Node.js, and TypeScript in software development</span></li>
+            </ul>
+            <a href=https://www.bespokify.com><img src="img/bespokify.png" class="img-logo"></a>
+            <p class="light">Bespokify</p>
+            <h5 class="work-content semi-bold">Senior software (pattern) engineer</h5>
+            <p class="work-content light">Jul 2019 –  Apr 2020</p>
+            <ul>
+              <li><span class="regular">Work closely with lead engineer, CCO, and CEO to gather client's requirements and manage expectations</span></li>
+              <li><span class="regular">Lead multiple client projects, including creating reports to C-level of stakeholders, and allocate work to team members from priority-based execution plan to ensure that all requirements are met according to the agreed scope within the deadline</span></li>
+            </ul>
+            <h5 class="work-content semi-bold">Software (pattern) engineer</h5>
+            <p class="work-content light">May 2017 –  Jun 2019</p>
+            <ul>
+              <li><span class="regular">Develop modular design pattern libraries using a parametric drafting system</span></li>
+              <li><span class="regular">Act as liaison between developers, manufacturers, pattern makers, and designers to support API integration and pattern automation system on eCommerce site</span></li>
+              <li><span class="regular">Improve Bespokify's predictive body measurement and pattern coding software</span></li>
+            </ul>
+            <a href=https://www.tdem.toyota-asia.com><img src="img/toyota.png" class="img-logo"></a>
+            <p class="light">Toyota Daihatsu Engineering & Manufacturing</p>
+            <h5 class="work-content semi-bold">Senior material engineer</h5>
+            <p class="work-content light">Jan 2017 –  Mar 2017</p>
+            <h5 class="work-content semi-bold">Material engineer</h5>
+            <p class="work-content light">Jun 2013 –  Dec 2016</p>
+            <ul>
+              <li><span class="regular">Lead feasibility study of decorative films, textiles and seat fabrics in Asia through customer survey, benchmarking, strategic planning, and process improvement</span></li>
+              <li><span class="regular">Assure quality of plastic parts in new launched models in Asia, South Africa, and South America and take necessary countermeasure before starting mass production</span></li>
+              <li><span class="regular">Investigate causes of market claim parts from the degradation of materials</span></li>
+            </ul>
+      </div>
+    </div>
+  
     <div class="card-content" id="education", style="width:90%;">
       <div class="card-body">
         <h3 class="card-title semi-bold">Education</h3>
@@ -125,7 +196,7 @@
         <p class="regular">International School of Engineering (ISE), Faculty of Engineering, Chulalongkorn University</p>
         
         <h5 class="semi-bold">Certificates</h5>
-        <div class="flex-container jc-center">
+        <div class="flex-container jc-center cert">
           <img src ="img/thumb1.jpg">
         </div>
       </div>
@@ -193,7 +264,6 @@
       </div>
     </div>
 
-
     <div class="card-content" id="contact", style="width:90%;">
       <div class="card-body">
         <h3 class="card-title semi-bold">Contact</h3>
@@ -259,3 +329,4 @@
   </div>
 </body>
 </html>
+
